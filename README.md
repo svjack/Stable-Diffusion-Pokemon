@@ -12,7 +12,7 @@
 ### Brief introduction
 [Stable Diffusion](https://stability.ai/blog/stable-diffusion-public-release) is a state of the art text-to-image model that generates images from text.<br/>
 Nowadays, with the help of [diffusers](https://github.com/huggingface/diffusers), which provides pretrained diffusion models across multiple modalities, people can customize their own image generator conditional (based on prompt) or unconditional.<br/>
-This project focus on run the [text to image example](https://github.com/huggingface/diffusers/tree/main/examples/text_to_image) diffusers provide based on [lambdalabs/pokemon-blip-captions](https://huggingface.co/datasets/lambdalabs/pokemon-blip-captions) and migrate this task to Japanese and Chinese domain
+This project focus on run the [text to image example](https://github.com/huggingface/diffusers/tree/main/examples/text_to_image) diffusers provided based on [lambdalabs/pokemon-blip-captions](https://huggingface.co/datasets/lambdalabs/pokemon-blip-captions) and migrate this task to Japanese and Chinese domain
 in both model and data dimensions. Compare the conclusions that may give a guideline about the fine tuning of Stable Diffusion in different languages.<br/>
 All codes are edit versions of the official [train_text_to_image.py](https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image.py) that make it works in Japanese and Chinese Domain.
 And provide three pretrained models in [English](https://huggingface.co/svjack/Stable-Diffusion-Pokemon-en) , [Japanese](https://huggingface.co/svjack/Stable-Diffusion-Pokemon-ja) and [Chinese](https://huggingface.co/svjack/Stable-Diffusion-Pokemon-zh).
