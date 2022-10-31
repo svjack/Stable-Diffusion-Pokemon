@@ -22,7 +22,7 @@ Running install.sh will install all dependencies and download all models needed.
 After download, you can try [run_en_model.py](run_en_model.py), [run_ja_model.py](run_ja_model.py) and [run_zh_model.py](run_zh_model.py) by yourself.
 
 ### DataSet prepare
-For fine tuning them in Japanese and Chinese domains. All we need is the [lambdalabs/pokemon-blip-captions](https://huggingface.co/datasets/lambdalabs/pokemon-blip-captions) in Japanese and Chinese. I have translated them with the help of [DeepL](https://www.deepl.com/translator) and upload them to huggingface dataset hub. Locate in [svjack/pokemon-blip-captions-en-ja](https://huggingface.co/datasets/svjack/pokemon-blip-captions-en-ja) and [svjack/pokemon-blip-captions-en-zh](https://huggingface.co/datasets/svjack/pokemon-blip-captions-en-zh).
+For fine tuning them in Japanese and Chinese domains. All we need is the [lambdalabs/pokemon-blip-captions](https://huggingface.co/datasets/lambdalabs/pokemon-blip-captions) in Japanese and Chinese. I have translated them with the help of [DeepL](https://www.deepl.com/translator) and upload them to huggingface dataset hub. Located in [svjack/pokemon-blip-captions-en-ja](https://huggingface.co/datasets/svjack/pokemon-blip-captions-en-ja) and [svjack/pokemon-blip-captions-en-zh](https://huggingface.co/datasets/svjack/pokemon-blip-captions-en-zh).
 
 ### Fine tuning pretrained models
 The English version located in [train_en_model.py](train_en_model.py) is only a simply copy of [train_text_to_image.py](https://github.com/huggingface/diffusers/blob/main/examples/text_to_image/train_text_to_image.py) change the code run by accelerate in script to notebook by function
