@@ -51,23 +51,23 @@ For take a look at all outputs, i disable the safety_checker to let all outputs 
 <tbody>
 <tr>
 <td>A cartoon character with a potted plant on his head<br/><br/>鉢植えの植物を頭に載せた漫画のキャラクター<br/><br/>一个头上戴着盆栽的卡通人物</td>
-<td><img src="imgs/en_plant.jpg" alt="Girl in a jacket" width="500" height="500"></td>
-<td><img src="imgs/ja_plant.jpg" alt="Girl in a jacket" width="500" height="500"></td>
-<td><img src="imgs/zh_plant.jpg" alt="Girl in a jacket" width="500" height="500"></td>
+<td><img src="imgs/en_plant.jpg" alt="Girl in a jacket" width="600" height="450"></td>
+<td><img src="imgs/ja_plant.jpg" alt="Girl in a jacket" width="600" height="450"></td>
+<td><img src="imgs/zh_plant.jpg" alt="Girl in a jacket" width="600" height="450"></td>
 </tr>
 <tr>
 <td>cartoon bird<br/><br/>漫画の鳥<br/><br/>卡通鸟</td>
-<td><img src="imgs/en_bird.jpg" alt="Girl in a jacket" width="500" height="500"></td>
-<td><img src="imgs/ja_bird.jpg" alt="Girl in a jacket" width="500" height="500"></td>
-<td><img src="imgs/zh_bird.jpg" alt="Girl in a jacket" width="500" height="500"></td>
+<td><img src="imgs/en_bird.jpg" alt="Girl in a jacket" width="600" height="450"></td>
+<td><img src="imgs/ja_bird.jpg" alt="Girl in a jacket" width="600" height="450"></td>
+<td><img src="imgs/zh_bird.jpg" alt="Girl in a jacket" width="600" height="450"></td>
 </tr>
 </tbody>
 <tfoot>
 <tr>
 <td>blue dragon illustration<br/><br/>ブルードラゴンのイラスト<br/><br/>蓝色的龙图</td>
-<td><img src="imgs/en_blue_dragon.jpg" alt="Girl in a jacket" width="500" height="500"></td>
-<td><img src="imgs/ja_blue_dragon.jpg" alt="Girl in a jacket" width="500" height="500"></td>
-<td><img src="imgs/zh_blue_dragon.jpg" alt="Girl in a jacket" width="500" height="500"></td>
+<td><img src="imgs/en_blue_dragon.jpg" alt="Girl in a jacket" width="600" height="450"></td>
+<td><img src="imgs/ja_blue_dragon.jpg" alt="Girl in a jacket" width="600" height="450"></td>
+<td><img src="imgs/zh_blue_dragon.jpg" alt="Girl in a jacket" width="600" height="450"></td>
 </tr>
 </tfoot>
 </table>
