@@ -253,6 +253,19 @@ def transform_dict_to_named_tuple(dict_, name = "NamedTuple"):
     args_parser_namedtuple = namedtuple(name, dict_)
     return args_parser_namedtuple(**dict_)
 
+def setattr_gen_option_cls(src_obj):
+    assert isinstance(src_obj, tuple) or isinstance(src_obj, dict)
+    if isinstance(src_obj, tuple):
+        src_obj_ = transform_named_tuple_to_dict(src_obj)
+    else:
+        src_obj_ = src_obj
+    assert isinstance(src_obj_, dict)
+    class Option(object):
+        pass
+    option = Option()
+    for k, v in src_obj_.items():
+        setattr(option, k, v)
+    return option
 
 args = parse_args()
 args = parse_parser_add_arg(args,  as_named_tuple = True)
